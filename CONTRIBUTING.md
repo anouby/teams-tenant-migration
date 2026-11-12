@@ -4,7 +4,7 @@ Thanks for helping. Tenant migrations are painful, and every fix here saves some
 
 ## Ground rules
 
-- **Standard library only.** No `pip install`, so anyone can run the tool on a locked-down admin machine. Python 3.8+.
+- **Standard library only.** No `pip install`, so anyone can run the tool on a locked-down admin machine. Python 3.9+.
 - **Safe to re-run.** Every step must resume after a crash and never post anything twice. Record progress with `Importer.mark()` as soon as each item is done.
 - **Never lose a message silently.** If Microsoft refuses something, retry with less detail, or report it in `imp.failed`.
 - **Never put real data in issues, commits or tests.** No tenant IDs, names, e-mail addresses, message text or logs that contain them. Use `oldco`, `newco`, `Alice`, `Bob`.

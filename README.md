@@ -5,7 +5,7 @@
 **Free, open-source tenant-to-tenant migration for Microsoft Teams.**
 Teams, channels, one-to-one and group chats, files and OneDrive move to a new Microsoft 365 tenant as *real* Teams messages, with the original sender and the original date.
 
-![Python](https://img.shields.io/badge/python-3.8%2B-3776ab)
+![Python](https://img.shields.io/badge/python-3.9%2B-3776ab)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Tests](https://img.shields.io/badge/tests-offline%20self--check-informational)
@@ -21,7 +21,7 @@ Teams, channels, one-to-one and group chats, files and OneDrive move to a new Mi
 Commercial Teams migration tools are expensive. Microsoft's own Graph API can do most of the work for free through **Teams migration mode**, but it is full of undocumented limits and surprises. This project wraps that API in a tool that is safe to re-run, and records every lesson learned from a real company migration (see [`docs/lessons-learned.md`](docs/lessons-learned.md)).
 
 - **No cost.** It only uses Microsoft Graph APIs included in your existing licenses.
-- **No installs.** Plain Python 3.8+ standard library. Docker is optional.
+- **No installs.** Plain Python 3.9+ standard library. Docker is optional.
 - **Runs on your computer.** Your data goes straight from Microsoft to your machine and back, and nothing is sent anywhere else.
 - **Safe to stop and restart.** Progress is saved after every item, so nothing is duplicated.
 - **Migrate only what you need.** Choose any mix of teams, one-to-one chats, group chats, meeting chats and OneDrive, and add more later.

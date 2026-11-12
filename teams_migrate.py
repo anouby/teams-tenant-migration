@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Free Microsoft Teams tenant-to-tenant migration using Microsoft Graph. Python 3.8+, no packages needed.
+"""Free Microsoft Teams tenant-to-tenant migration using Microsoft Graph. Python 3.9+, no packages needed.
 
 Main steps (run in this order; each one is safe to re-run and resumes where it stopped):
   export         read teams, chats, files (and OneDrive) from the OLD tenant into ./export; --parts picks what
