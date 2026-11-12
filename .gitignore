@@ -1,0 +1,12 @@
+# Secrets and migrated company data: never commit these
+config.json
+export/
+*.journal
+
+# Local clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.idea/
+.vscode/

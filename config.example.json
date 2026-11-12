@@ -1,0 +1,8 @@
+{
+  "source": { "tenant_id": "OLD-TENANT-ID", "client_id": "OLD-APP-CLIENT-ID", "client_secret": "OLD-APP-SECRET-VALUE" },
+  "dest":   { "tenant_id": "NEW-TENANT-ID", "client_id": "NEW-APP-CLIENT-ID", "client_secret": "NEW-APP-SECRET-VALUE" },
+  "fallback_sender_upn": "admin@newcompany.com",
+  "media_owner_upn": "",
+  "old_sharepoint": "oldcompany",
+  "sharepoint_rename": {}
+}
